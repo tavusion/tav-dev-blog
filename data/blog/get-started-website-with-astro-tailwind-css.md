@@ -1,6 +1,6 @@
 ---
 pubDate: "Aug 12 2022"
-title: "Get started with Tavleen to create a website using Astro and Tailwind CSS"
+title: "How to properly place the design elements in the Hero Section"
 description: "Lorem ipsum dolor sit amet"
 excerpt: "Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat"
 image: "~/assets/images/steps.jpg"

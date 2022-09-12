@@ -5,24 +5,21 @@ import Picture from '~/components/core/Picture.astro';
 
 <section>
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="py-12 md:py-20">
+		<div class="pt-12 pb-8 md:pt-20 md:pb-8">
 			<div class="text-center pb-10 md:pb-16">
 				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
 					Hi, I'm
-					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Tavleen.</span>
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Tavleen</span>
 				</h1>
 				<div class="max-w-3xl mx-auto">
 					<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-						Welcome to my development and design blog. Hang around if you're interested in <a href="#"
-							>Web Performance</a
-						>, <a href="#">CSS</a>, <a href="#">Accessibility</a>, <a href="#">Jamstack</a>, <a href="#">Wordpress</a>, <a
-							href="#">E-commerce</a
-						> and more.
+						This is my development blog. Hang around if you're interested in <a href="#">Web Perf</a>, <a href="#">UX</a
+						>, <a href="#">CSS</a>, <a href="#">A11y</a>, <a href="#">Jamstack</a>, <a href="#">Wordpress</a> and more.
 					</p>
 					<div class="max-w-none px-6 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
 						<div class="flex w-full sm:w-auto">
 							<a
-								class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 w-full"
+								class="btn text-white border border-primary-700 bg-primary-700 hover:bg-primary-900 hover:border-primary-900 sm:mb-0 w-full"
 								href="/blog"
 								rel="noopener"
 							>
@@ -41,8 +38,8 @@ import Picture from '~/components/core/Picture.astro';
 			<div>
 				<div class="relative mb-8 m-auto max-w-3xl">
 					<Picture
-						src={import('~/assets/images/hero.jpg')}
-						class="mx-auto rounded-md shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
+						src={import('~/assets/images/hero.webp')}
+						class="mx-auto rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
 						widths={[400, 768]}
 						sizes=" (max-width: 767px) 400px, 768px"
 						alt="Hero Image"
