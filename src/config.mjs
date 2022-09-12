@@ -1,11 +1,11 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'tavleen.dev',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://tavleen.netlify.app',
 	basePathname: '/',
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'Tavleen - Tech Blog',
+	description: 'Lets talk about Web Performance, CSS, Accessibility, Jamstack, Wordpress, E-commerce and more.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
@@ -22,7 +22,7 @@ export const BLOG = {
 
 	post: {
 		disabled: false,
-		pathname: '', // empty for /some-post, value for /pathname/some-post 
+		pathname: '', // empty for /some-post, value for /pathname/some-post
 	},
 
 	category: {
