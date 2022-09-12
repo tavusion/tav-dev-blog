@@ -1,4 +1,4 @@
-# 🚀 AstroWind
+# tavleen.dev
 
 <img src="lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
