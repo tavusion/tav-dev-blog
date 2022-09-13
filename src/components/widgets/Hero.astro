@@ -5,7 +5,7 @@ import Picture from '~/components/core/Picture.astro';
 
 <section>
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
-		<div class="pt-12 pb-8 md:pt-20 md:pb-8">
+		<div class="pt-12 pb-8 md:pt-24 md:pb-8">
 			<div class="text-center pb-10 md:pb-16">
 				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
 					Hi, I'm
@@ -19,7 +19,7 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="max-w-none px-6 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
 						<div class="flex w-full sm:w-auto">
 							<a
-								class="btn text-white border border-primary-700 bg-primary-700 hover:bg-primary-900 hover:border-primary-900 sm:mb-0 w-full"
+								class="btn text-white border bg-primary-600 dark:bg-primary-700 hover:bg-primary-800 hover:dark:bg-primary-900 sm:mb-0 w-full"
 								href="/blog"
 								rel="noopener"
 							>
@@ -39,7 +39,7 @@ import Picture from '~/components/core/Picture.astro';
 				<div class="relative mb-8 m-auto max-w-3xl">
 					<Picture
 						src={import('~/assets/images/hero.webp')}
-						class="mx-auto rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
+						class="mx-auto rounded-xl shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
 						widths={[400, 768]}
 						sizes=" (max-width: 767px) 400px, 768px"
 						alt="Hero Image"
