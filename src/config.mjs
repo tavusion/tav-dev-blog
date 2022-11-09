@@ -1,7 +1,7 @@
 export const SITE = {
 	name: 'tavleen.dev',
 
-	origin: 'https://tavleen.netlify.app',
+	origin: 'https://tavleen.dev',
 	basePathname: '/',
 
 	title: 'Tavleen - Tech Blog',
