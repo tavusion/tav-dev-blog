@@ -8,12 +8,12 @@ const { meta = {} } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px] dark">
+<html lang="en" class="motion-safe:scroll-smooth 2xl:text-[20px]">
 	<head>
 		<MetaTags {...meta} />
 	</head>
 
-	<body class="antialiased text-gray-900 dark:text-slate-300 tracking-tight bg-white dark:bg-slate-900">
+	<body class="dark antialiased text-gray-900 dark:text-gray-200 tracking-tight bg-white dark:bg-gray-900">
 		<slot />
 		<BasicScripts />
 		<style is:global>
