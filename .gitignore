@@ -21,3 +21,14 @@ pnpm-debug.log*
 
 package-lock.json
 pnpm-lock.yaml
+data/blog/.nota/config.ini
+data/blog/.obsidian/app.json
+data/blog/.obsidian/appearance.json
+data/blog/.obsidian/community-plugins.json
+data/blog/.obsidian/core-plugins.json
+data/blog/.obsidian/hotkeys.json
+data/blog/.obsidian/plugins/templater-obsidian/main.js
+data/blog/.obsidian/plugins/templater-obsidian/manifest.json
+data/blog/.obsidian/plugins/templater-obsidian/styles.css
+data/blog/.obsidian/snippets/4. Better Frontmatter.css
+data/blog/.obsidian/workspace.json
